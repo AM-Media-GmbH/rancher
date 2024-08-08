@@ -1,0 +1,7 @@
+#cloud-config
+packages:
+  - open-iscsi
+  - nfs-common
+
+package_update: true
+package_upgrade: true
